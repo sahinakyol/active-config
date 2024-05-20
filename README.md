@@ -29,6 +29,14 @@ The project consists of the following main components:
 
 ### Installation
 ```xml
+<repositories>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/sahinakyol/active-config</url>
+        <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+</repositories>
+
 <dependency>
     <groupId>org.activeconfig</groupId>
     <artifactId>active-config</artifactId>
